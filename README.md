@@ -1,4 +1,5 @@
-Materials Required
+# Materials Required
+
 Arduino Uno/Mega/Nano – 1 unit
 Ultrasonic Sensor (HC-SR04) – For detecting hands
 Servo Motor (SG90) – To control the dispenser mechanism
@@ -8,7 +9,9 @@ Connecting Wires
 Breadboard (optional) – For prototyping
 Resistors – As required (for current control)
 Mini Pump (optional) – If you want a more advanced version
-Circuit Connections
+
+# Circuit Connections
+
 Ultrasonic Sensor (HC-SR04):
 VCC: Connect to the 5V pin on Arduino.
 GND: Connect to GND on Arduino.
@@ -21,7 +24,7 @@ Orange Wire (Signal): Connect to Arduino digital pin D3.
 Power Supply:
 Ensure the Arduino is powered using a USB cable or external power source.
 
-How It Works
+# How It Works
 The ultrasonic sensor continuously sends sound waves and measures the distance of objects.
 When a hand is detected within 10 cm, the Arduino sends a signal to the servo motor.
 The servo motor moves to press the sanitizer pump, dispensing sanitizer.
@@ -32,4 +35,4 @@ Mini Pump: Replace the servo with a mini pump for direct dispensing.
 Battery Operated: Use a rechargeable battery to make the device portable.
 Sensor Adjustment: Add a potentiometer to adjust the detection distance.
 LED Indicator: Light up an LED when sanitizer is dispensed.
-# automatic-hand-sanitizer-dispenser-using-an-Arduino
+
